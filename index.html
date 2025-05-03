@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/budget-icon" href="pics/budget.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker - Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Budget Tracker</h1>
+    </header>
+
+    <main>
+        <section id="budget-settings">
+            <h2>Set Budget Goals</h2>
+            <form id="budget-form">
+                <label for="total-budget">Budget: </label>
+                <input type="number" id="budget-input" placeholder="Budget">
+
+                <label for="expense-goal">Expense Goal: </label>
+                <input type="number" id="expense-goal-input" placeholder="Expense Goal">
+
+                <button type="submit" id="save-goals-btn">Save Goals</button>
+            </form>
+        </section>
+
+        <section id="add-transaction">
+            <h2>Add a Transaction</h2>
+            <form id="transaction-form">
+                <label for="amount">Amount: </label>
+                <input type="number" id="amount" placeholder="Amount" required>
+
+                <label for="category">Select Category</label>
+                <select id="category">
+                    <option></option>
+                    <option value="groceries">Groceries</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="rent">Rent</option>
+                    <option value="utilities">Utilities</option>
+                    <option value="transportation">Transportation</option>
+                    <option value="others">Others</option>
+                </select>
+
+                <button type="submit" id="add-transaction-btn">Add Transaction</button>
+            </form>
+        </section>
+
+        <section id="transaction-history">
+            <div class="budget-summary">
+                <p id="display-budget">Total Budget: R0.00</p>
+                <p id="expense-limit">Expenses Goal: R0.00</p>
+                <p id="budget-left">Budget Left: R0.00</p>
+                <div id="warning-container"></div>
+            </div>
+            <h2>Transaction History: </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-list">
+                    <!--transaction list-->
+                </tbody>
+            </table>
+        </section>
+
+        <a href="reports.html" class="view-reports-btn">Reports</a>
+
+    </main>
+
+    <div id="mobile-warning" style="display: none; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-color: #fff; z-index: 9999; position: fixed; top: 0; left: 0; width: 100%;">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Robot Typing" style="width: 150px; margin-bottom: 20px;">
+        <h2>⚠ For a better experience, please use a Laptop or Desktop to access this app.</h2>
+    </div>
+    
+
+    <script type="module" src="script.js"></script>
+    
+</body>
+</html>
