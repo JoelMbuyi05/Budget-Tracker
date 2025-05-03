@@ -1,5 +1,5 @@
 # Budget-Tracker
-A responsive web-based budget tracker that helps you track your income and expenses using Firebase. It includes warnings when you overspend and provides a visual report chart of your budget.
+A web-based budget tracker that helps you track your income and expenses using Firebase. It includes warnings when you overspend and provides a visual report chart of your budget.
 
 - ✅ Add income or expense entries
 - ✅ Real-time updates using Firebase Firestore
