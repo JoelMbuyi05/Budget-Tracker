@@ -55,7 +55,7 @@
                 <p id="display-budget">Total Budget: R0.00</p>
                 <p id="expense-limit">Expenses Goal: R0.00</p>
                 <p id="budget-left">Budget Left: R0.00</p>
-                <div id="warning-container"></div>
+                <button id="reset-all-btn" class="reset-btn">Reset All Data</button>
             </div>
             <h2>Transaction History: </h2>
             <table>
@@ -75,6 +75,10 @@
         <a href="reports.html" class="view-reports-btn">Reports</a>
 
     </main>
+
+    <div id="notification-popup" class="notification-popup">
+        <span id="notification-message"></span>
+    </div>
 
     <div id="mobile-warning" style="display: none; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-color: #fff; z-index: 9999; position: fixed; top: 0; left: 0; width: 100%;">
         <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Robot Typing" style="width: 150px; margin-bottom: 20px;">
