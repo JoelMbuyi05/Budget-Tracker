@@ -5,6 +5,7 @@ A web-based budget tracker that helps you track your income and expenses using F
 - ✅ Real-time updates using Firebase Firestore
 - ✅ Warning notification when expenses exceed income
 - ✅ Budget and balance display
+- ✅ A Reset Button
 - ✅ Pie or bar chart report using Chart.js
 - ✅ Clean UI
 - 🌐 Firebase hosting support
