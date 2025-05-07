@@ -17,4 +17,4 @@ A web-based budget tracker that helps you track your income and expenses using F
 - Firebase Firestore
 - [Chart.js] for visual reports
 
-🔗 **Live Demo:**
+🔗 **Live Demo: https://budget-tracker-five-beta.vercel.app/
