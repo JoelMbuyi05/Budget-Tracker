@@ -3,7 +3,7 @@ A web-based budget tracker that helps you track your income and expenses using F
 
 - ✅ Add income or expense entries
 - ✅ Real-time updates using Firebase Firestore
-- ✅ Warning notification when expenses exceed income
+- ✅ Warning notification when expenses exceed incom
 - ✅ Budget and balance display
 - ✅ A Reset Button
 - ✅ Pie or bar chart report using Chart.js
@@ -17,4 +17,4 @@ A web-based budget tracker that helps you track your income and expenses using F
 - Firebase Firestore
 - [Chart.js] for visual reports
 
-🔗 **Live Demo: https://budget-tracker-five-beta.vercel.app/
+🔗 **Live Demo: https://budget-tracker-five-beta.vercel.app/**
