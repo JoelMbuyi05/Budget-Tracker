@@ -63,3 +63,8 @@ This project helped develop skills in:
 5. Start adding income & expenses!
 
 # 🎥 Video Demo
+
+
+
+https://github.com/user-attachments/assets/8575d95c-7e86-45ca-be99-f22dd4828bde
+
